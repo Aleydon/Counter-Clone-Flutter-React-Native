@@ -1,7 +1,7 @@
 /* By: Roberto Aleydon */
 
 import React from 'react';
-import Counter from './src/counter';
+import Counter from './src/Components/counter';
 
 
 
