@@ -21,10 +21,12 @@ export default function Counter() {
 
             <CenterCounter>
                 <Text>You have pushed the button this many times</Text>
-                <Text>{counter}</Text>
+                <Text style={{fontSize: 25}}>{counter}</Text>
             </CenterCounter>
 
-            <FabView onPress={() => setCounter(counter + 1)}>
+            <FabView 
+                activeOpacity={0.6}
+                onPress={() => setCounter(counter + 1)}>
                 <AddText>+</AddText>
             </FabView>
         </>

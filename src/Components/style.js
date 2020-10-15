@@ -16,16 +16,16 @@ export const CenterCounter = styled.View`
 
 
 export const FabView = styled.TouchableOpacity`
-    background-color: #007fff;
+    background-color: #0c9dff;
     z-index: 1;
-    bottom: 16px;
+    bottom: 23px;
     border-radius: 100px;
     height: 60px;
     width: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    left: 77%;
+    left: 77%; 
 `;
 
 
