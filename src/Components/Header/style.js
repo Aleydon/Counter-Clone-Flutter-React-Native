@@ -6,7 +6,7 @@ import styled from 'styled-components/native';
 
 
 export const Header = styled.View`
-    height: 60px;
+    height: 47px;
     width: 100%;
     background-color: #0c9dff;
     display: flex;
@@ -22,3 +22,7 @@ export const Title = styled.Text`
     font-size: 19px;
     padding-left: 20px;
 `;
+
+
+
+
