@@ -1,8 +1,9 @@
 /* By: Roberto Aleydon */
 
 import React, {useState} from 'react';
-import Header from './Header';
 import { StatusBar, Text } from 'react-native';
+
+import Header from './Header';
 import { CenterCounter, FabView, AddText } from './style';
 
 
