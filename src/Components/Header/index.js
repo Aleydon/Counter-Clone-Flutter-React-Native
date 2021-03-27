@@ -1,21 +1,12 @@
-//by Roberto Aleydon
-
 import React from 'react';
-import { Header, Title } from './style';
+import {Header, Title} from './style';
 
-
-
-
-
-function HeaderComponent (){
-    return(
-        <Header>
-            <Title>Flutter Demo Home Page </Title>
-        </Header>      
-)}
-
+function HeaderComponent() {
+  return (
+    <Header>
+      <Title>Flutter Demo Home Page </Title>
+    </Header>
+  );
+}
 
 export default HeaderComponent;
-
-
-
