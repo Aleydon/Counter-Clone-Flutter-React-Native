@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {Header, Title} from './style';
 
 function HeaderComponent() {

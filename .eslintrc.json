@@ -21,9 +21,18 @@
   "plugins": [
     "react",
     "react-hooks",
-    "prettier"
+    "prettier",
+    "import-helpers"
   ],
   "rules": {
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        "newlinesBetween": "always", // new line between groups
+        "groups": ["module", "/^react/", ["parent", "sibling", "index"]],
+        "alphabetize": { "order": "asc", "ignoreCase": true }
+      }
+    ],
     "prettier/prettier": "error",
     "react-hooks/exhaustive-deps": "warn",
     "import/prefer-default-export": "off",
